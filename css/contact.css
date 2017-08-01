@@ -1,0 +1,46 @@
+/* beggining form wrapper stying*/
+
+#contact-form-wrapper {
+    background-color: #D4D864;
+    height: 650px;
+    width: 100%;
+}
+
+#contact-form-wrapper iframe {
+    width: 50%;
+    float: left;
+}
+    
+#contact-form-wrapper h1 {
+    width: 50%;
+    float: right;
+    margin-top: 15%;
+    color: #D4D864;
+}
+
+#map-wrapper {
+    clear: both;
+}
+
+#map-wrapper address{
+    float: left;
+    font-size: 32px;
+    background-color:#D4D864;
+    padding: 80px 450px;
+    font-weight: bold;
+}
+
+#map-wrapper iframe{
+    float: right;
+    width: 600px;
+    height: 450px;
+}
+
+#body-picture {
+    background-image: url('../img/dragon.gif');
+    float: right;
+    height: 650px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+}

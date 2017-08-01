@@ -1,0 +1,135 @@
+/* fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900|Permanent+Marker');
+
+/*universals*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, a {
+    font-family:'Lato' sans-serif;
+}
+
+/* Header Style*/
+header {
+    position: relative;
+}
+#logo-img {
+    height: 200px
+}
+nav {
+    display: inline-block;
+    position: absolute;
+    width: 550px;
+    right: 0;
+    bottom: 0;
+}
+nav ul li{
+    display: inline-block;
+    float: right;
+    padding: 2%;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0;
+}
+.home {
+    color: #D4D864;
+    font-size: 30px
+}
+.about {
+    color: #D4D864;
+    font-size: 30px;
+}
+.contact {
+    color: #D4D864;
+    font-size: 30px;
+}
+/* Hero Section Begins!*/
+#hero {
+    height: 400px;
+    background-image: url("https://images.alphacoders.com/186/186993.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-image: url("https://www.colourbox.com/preview/11275181-black-dragon-skin-background-realistic-squama.jpg");
+}
+
+#hero h2 {
+    font-size: 45px;
+    color: #D4D864;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin:1px;
+    text-shadow: 6px 10px 10px #000;
+}
+/*sidebar section!*/
+
+main {
+    float: left;
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+    color: #D4D864;
+}
+
+main h1 {
+    letter-spacing: 8px;
+}
+
+#main-text {
+    font-size: 1.5em;
+    line-height: 35px;
+    padding: 0px 16px;
+}
+
+#copyright {
+    color: #D4D864;
+    
+}
+
+footer {
+    color: black;
+    padding: 20px 0px;
+    clear: both;
+    padding-top: 50px;
+}
+
+.fa-facebook-official {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+.fa-youtube-play {
+    color: #bb0000;
+}
+
+.fa-steam-square{
+    color: #666666;
+}
+
+.fa-twitch {
+   color: #6441a5; 
+}

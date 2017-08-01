@@ -1,0 +1,46 @@
+/*hero section*/
+
+#about-hero {
+    height: 800px;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/ad/35/78/ad357879747e81246a2ff9cf8fed09af.jpg');
+    background-size: cover;
+    background-position: top;
+    float: left;
+    /* 1000: come back and resize the logo */
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    color: #D4D864;
+}
+
+/* column styles*/
+
+.column {
+    width: 33%;
+    height: 400px;
+    float: left;
+    padding: 0px 16px;
+    position: relative;
+    margin-top: 400px;
+    background-color: rgba(88, 88, 88, 0.4);
+}
+
+.column p {
+    text-align: justify;
+    height: 300px;
+    color: #D4D864;
+    
+}
+
+#col-1 {
+    clear: both;
+    
+}
+
+.column h2 {
+    color: #D4D864;
+}
